@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica;
+    border: border-box;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #0f1111;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Navbar box-1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.nav-logo:hover {
+    border: 2px solid white;
+    padding: -2px 20px;
+}
+
+/* Navbar box-2 */
+.add-1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-location:hover {
+    border: 2px solid white;
+    padding: 7px 20px;
+}
+
+/* Navbar box-3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Navbar box-4 */
+.nav-country {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.nav-country img {
+    width: 20px;
+    height: 20px;
+}
+
+.country-name {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+    border: transparent;
+}
+
+.nav-country:hover {
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+/* Nav bar box-5 */
+.nav-signin span {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.nav-signin select {
+    background-color: black;
+    color: white;
+    border: transparent;
+}
+
+.nav-signin:hover {
+    border: 2px solid white;
+    padding: 2px 20px;
+}
+
+/* Nav bar box=6 */
+.nav-return span {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-return:hover {
+    border: 2px solid white;
+    padding: 4px 20px;
+}
+
+/* Nav bar box-7 */
+.nav-cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.fa-cart-shopping {
+    font-size: 30px;
+}
+
+.nav-cart:hover {
+    border: 2px solid white;
+    padding: 9px 20px;
+}
+
+/* Panel Styling */
+.panel {
+    height: 20px;
+    background-color: #484949;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    padding: 9px 10px;
+}
+
+.panel-all {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.panel-all i {
+    font-size: 20px;
+}
+
+.panel-options p {
+    font-size: 0.89rem;
+    font-weight: 400;
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.panel-options .prime-option {
+    background-color: transparent;
+    color: white;
+    font-size: 0.89rem;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-options {
+    display: flex;
+    gap: 31.5px;
+}
+
+.panel-all:hover {
+    border: 2px solid white;
+    padding: 2px 4px;
+}
+
+.panel-ops1:hover {
+    border: 2px solid white;
+    padding: 2px 4px;
+}
+
+/* Hero section styling */
+.hero-section {
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.91rem;
+    width: 80%;
+    margin:  auto;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #089ab4;
+}
+
+/* Shop section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 350px;
+    border: none;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-image {
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p {
+    color: #089ab4;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 16px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.foot-panel2 p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+.foot-panel2 a {
+    text-decoration: none;
+    color: #dddddd;
+    display: flex;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+
+.foot-panel2 a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    width: 80px;
+    margin-top: 1%;
+}
+
+.foot-ops2 select i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foot-ops2 select {
+    font-size: 15px;
+    background-color: #222f3d;
+    color: white;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-ops2:hover {
+    border: 2px solid white;
+    padding: 4px 5px;
+}
+
+.foot-Countrylogo img {
+    width: 25px;
+    height: 15px;
+}
+
+.foot-Countrylogo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-Countrylogo:hover {
+    border: 2px solid white;
+    padding: 6px 8px;
+}
+
+/* Footer panel 4*/
+.foot-panel4 {
+    background-color: #0f1111;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-panel4 .link1 {
+    font-size: 14px;
+    color: white;
+}
+
+.foot-panel4 a {
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+}
+
+.foot-panel4 a:hover {
+    text-decoration: underline;
+}
+
+/* Footer panel-5 */
+.foot-panel5 {
+    background-color: #0f1111;
+    color: #dddddd;
+    text-align: center;
+    font-size: 0.90rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.foot-panel5 a {
+    text-decoration: none;
+    color: #dddddd;
+    padding: 0 7.2px;
+}
+
+.foot-panel5 p {
+    margin-top: 5px;
+}
+
+.foot-panel5 a:hover {
+    text-decoration: underline;
+}
